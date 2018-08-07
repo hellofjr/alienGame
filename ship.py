@@ -33,7 +33,6 @@ class Ship():
         if self.move_left and self.rect.left > 0:
             self.centerx -= self.setting.ship_speed_factor
         if self.move_up and self.rect.top > 0:
-            print(self.rect.top)
             self.centery -= self.setting.ship_speed_factor
         if self.move_down and self.rect.bottom < self.screen_rect.bottom:
             self.centery += self.setting.ship_speed_factor
